@@ -1,0 +1,29 @@
+print("Chemicals are- Oxygen, Carbon, Hydrogen, Chlorine")
+a=input("Enter the name of first chemical to be combined-")
+b=input("Enter the name of second chemical to be combined-")
+
+if (a=='oxygen' and b=='carbon') or (a=='carbon' and b=='oxygen'):
+          print("It will form carbondioxide")
+          print("The chemical reaction is- C + O₂ --> CO₂")
+
+elif (a=='oxygen' and b=='hydrogen') or (a=='hydrogen'and b=='oxygen'):
+          print("It will form water")
+          print("The chemical reaction is- 2H₂ + O₂ --> 2H₂O")
+
+elif (a=='oxygen'and b=='chlorine') or (a=='chlorine'and b=='oxygen'):
+          print("No chemical reaction")
+
+elif (a=='hydrogen' and b=='carbon') or (a=='carbon' and b=='hydrogen'):
+          print("It will form methane")
+          print("The chemical reaction is- C + 2H₂ --> CH₄")
+          
+elif (a=='chlorine' and b=='carbon') or (a=='carbon' and b=='chlorine'):
+          print("It will form carbon tetrachloride")
+          print("The chemical reaction is- C + 2Cl₂ --> CCl₄")
+          
+elif (a=='hydrogen' and b=='chlorine') or (a=='chlorine' and b=='hydrogen'):
+          print("It will form hydrochloric acid")
+          print("The chemical reaction is- H₂ + Cl₂ --> 2HCl")
+
+else:
+          print("Check the name of chemical")
